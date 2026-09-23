@@ -66,6 +66,16 @@
             bindings = <&kp PIPE>;
             key-positions = <34 35>;
         };
+
+        layer_two {
+            bindings = <&lt 2 SPACE>;
+            key-positions = <39>;
+        };
+
+        left_control {
+            bindings = <&mt LCTRL BACKSPACE>;
+            key-positions = <40>;
+        };
     };
 
     keymap {
